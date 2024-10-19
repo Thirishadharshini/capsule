@@ -133,8 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="capsule files\iterating_images.cpp" />
-    <ClCompile Include="capsule.cpp" />
+    <ClCompile Include="capsule files\separation_hue_val.cpp" />
+    <ClCompile Include="cigarette\color_changing.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="iterating\HUE.cpp" />
     <ClCompile Include="iterating\hue_sat.cpp" />
     <ClCompile Include="iterating\hue_value.cpp" />
@@ -143,6 +144,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="capsule files\Header.h" />
+    <ClInclude Include="capsule files\separation_hue_val.h" />
+    <ClInclude Include="cigarette\color_changing.h" />
     <ClInclude Include="iterating\interating_img.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

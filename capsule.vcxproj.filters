@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="capsule.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="iterating\iterating_img.cpp">
@@ -33,7 +33,10 @@
     <ClCompile Include="iterating\threee_colors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="capsule files\iterating_images.cpp">
+    <ClCompile Include="capsule files\separation_hue_val.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cigarette\color_changing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="capsule files\Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capsule files\separation_hue_val.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cigarette\color_changing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
