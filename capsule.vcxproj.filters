@@ -18,104 +18,40 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="iterating\iterating_img.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterating\hue_sat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterating\hue_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterating\HUE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterating\threee_colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="capsule files\separation_hue_val.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cigarette\color_changing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="capsule files\removing_shadow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="capsule files\changing_prespective.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="velz\changeprespective.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="capsule files\Header.hpp">
+    <ClInclude Include="iterating\interating_img.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="capsule files\separation_hue_val.hpp">
+    <ClInclude Include="capsule files\Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cigarette\color_changing.hpp">
+    <ClInclude Include="capsule files\separation_hue_val.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="velz\changeprespective.hpp">
+    <ClInclude Include="cigarette\color_changing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="capsule files\img.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\img11.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\img1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\img12.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\output image.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\output image_50.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\output image_1111.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\output image_og.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\output image1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\checker_box.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\img.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\img_img.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\img1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\img11.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\img12.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image_50.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image_1111.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image_final.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image_og.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="capsule files\image\output image1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
-    <None Include="CppProperties.json" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-#include"separation_hue_val.hpp"
+#include"separation_hue_val.h"
 
 //iterating the directory
 vector<Mat> color_difference::iterating_dir(const char* filepath)
@@ -68,7 +68,6 @@ double color_difference::find_median(vector<double> v)
         median = (v[v.size() / 2- 1] + v[v.size() / 2]) / 2.0;
     else 
         median = v[v.size() / 2.0];
-    cout << median<<endl;
     return median;
 }
 //creating folder
