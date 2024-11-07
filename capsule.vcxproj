@@ -74,6 +74,10 @@
     <IncludePath>C:\Users\User\opencv\build\include\;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\User\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\User\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\User\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -124,15 +128,19 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\OneDrive\Documents\dirent-1.24\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world4100.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="capsule files\checker_board.cpp" />
+    <ClCompile Include="capsule files\removing_shadow.cpp" />
     <ClCompile Include="capsule files\separation_hue_val.cpp" />
     <ClCompile Include="cigarette\color_changing.cpp" />
     <ClCompile Include="main.cpp" />
@@ -147,6 +155,15 @@
     <ClInclude Include="capsule files\separation_hue_val.h" />
     <ClInclude Include="cigarette\color_changing.h" />
     <ClInclude Include="iterating\interating_img.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="capsule files\image\checker_board.jpg" />
+    <Image Include="capsule files\image\img.jpg" />
+    <Image Include="capsule files\image\img1.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
