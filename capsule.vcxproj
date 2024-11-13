@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dots\finding.cpp" />
     <ClCompile Include="capsule files\checker_board.cpp" />
     <ClCompile Include="capsule files\removing_shadow.cpp" />
     <ClCompile Include="capsule files\separation_hue_val.cpp" />
     <ClCompile Include="cigarette\color_changing.cpp" />
+    <ClCompile Include="circle\finding_thickness.cpp" />
+    <ClCompile Include="dots\finding.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="iterating\HUE.cpp" />
     <ClCompile Include="iterating\hue_sat.cpp" />
@@ -161,9 +164,16 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="dots\braille_images\Image_20241111103159364.bmp" />
+    <Image Include="dots\braille_images\Image_20241111103159364_cont2.bmp" />
+    <Image Include="dots\braille_images\image_400.jpg" />
+    <Image Include="dots\braille_images\image_400_cont2.bmp" />
     <Image Include="capsule files\image\checker_board.jpg" />
     <Image Include="capsule files\image\img.jpg" />
     <Image Include="capsule files\image\img1.jpg" />
+    <Image Include="circle\circle_image\circles_image_thin.png" />
+    <Image Include="dots\ringlight_img.jpg" />
+    <Image Include="dots\ring_light_img.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
