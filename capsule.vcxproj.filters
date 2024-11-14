@@ -45,15 +45,6 @@
     <ClCompile Include="capsule files\checker_board.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="circle\finding_thickness.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="dots\finding.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="dots\finding.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="iterating\interating_img.h">
@@ -81,27 +72,6 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="capsule files\image\img1.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\ring_light_img.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\ringlight_img.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\braille_images\image_400.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\braille_images\image_400_cont2.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\braille_images\Image_20241111103159364.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="dots\braille_images\Image_20241111103159364_cont2.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="circle\circle_image\circles_image_thin.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
