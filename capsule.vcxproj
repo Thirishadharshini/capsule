@@ -139,10 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="braille\convolution.cpp" />
+    <ClCompile Include="braille\FileName.cpp" />
+    <ClCompile Include="braille\finding_dots.cpp" />
+    <ClCompile Include="braille\src\glueDetection\signedConvolution.cpp" />
     <ClCompile Include="capsule files\checker_board.cpp" />
     <ClCompile Include="capsule files\removing_shadow.cpp" />
     <ClCompile Include="capsule files\separation_hue_val.cpp" />
     <ClCompile Include="cigarette\color_changing.cpp" />
+    <ClCompile Include="circle\finding_thickness.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="iterating\HUE.cpp" />
     <ClCompile Include="iterating\hue_sat.cpp" />
@@ -151,6 +156,7 @@
     <ClCompile Include="iterating\threee_colors.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="braille\src\glueDetection\signedConvolution.hpp" />
     <ClInclude Include="capsule files\Header.h" />
     <ClInclude Include="capsule files\separation_hue_val.h" />
     <ClInclude Include="cigarette\color_changing.h" />
@@ -161,9 +167,12 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="braille\braille_images\Image_20241111103159364.bmp" />
+    <Image Include="braille\braille_images\image_400.jpg" />
     <Image Include="capsule files\image\checker_board.jpg" />
     <Image Include="capsule files\image\img.jpg" />
     <Image Include="capsule files\image\img1.jpg" />
+    <Image Include="circle\circles_image_thin.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
