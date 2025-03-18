@@ -42,6 +42,7 @@
 //    cv::Mat dilate_dn;
 //    cv::dilate(adaptiveThresh, dilate_dn, kernel1, cv::Point(2, 1), 3);
 //    //cv::namedWindow("dilated image of adapt", cv::WINDOW_FREERATIO);
+// 
 //    imshow("dilated image of down", dilate_dn);
 //    cv::Mat dilate_up;
 //    cv::dilate(adaptiveThresh_up, dilate_up, kernel, cv::Point(0, 2), 5);
